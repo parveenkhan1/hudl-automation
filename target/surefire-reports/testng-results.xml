@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-07T21:23:39 BST" name="Hudl Login Suite" finished-at="2025-09-07T21:23:46 BST" duration-ms="7366">
+    <groups>
+    </groups>
+    <test started-at="2025-09-07T21:23:39 BST" name="Login Test" finished-at="2025-09-07T21:23:46 BST" duration-ms="7366">
+      <class name="com.hudl.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T21:23:39 BST" name="setUp" finished-at="2025-09-07T21:23:43 BST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openHudlHomePage()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T21:23:43 BST" name="openHudlHomePage" finished-at="2025-09-07T21:23:45 BST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHudlHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T21:23:45 BST" name="tearDown" finished-at="2025-09-07T21:23:46 BST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hudl.tests.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Hudl Login Suite -->
+</testng-results>
