@@ -1,78 +1,86 @@
-\# Hudl Login Automation Tests
+\# Hudl Login Automation
 
 
 
-\## Description
-
-This project contains Selenium + TestNG automation tests to validate the login functionality on \[Hudl.com](https://www.hudl.com/).  
-
-It demonstrates proper Maven project structure, use of relative paths for drivers, and a clean test framework suitable for cross-functional testing.
+This project contains a Selenium TestNG automation script for testing the Hudl login functionality. It allows you to test login with different user credentials by passing them as system properties.
 
 
 
-\## Project Structure
+---
 
 
 
-hudl-automation/
-
-├── drivers/ # ChromeDriver executable
-
-├── java/
-
-│ └── src/test/java/com/hudl/tests/LoginTest.java
-
-├── pom.xml # Maven project file
-
-└── testng.xml # TestNG suite configuration
+\## Prerequisites
 
 
 
+\- Java JDK 8 or higher installed
+
+\- Maven installed
+
+\- Chrome browser installed
+
+\- ChromeDriver matching your Chrome version (included in `drivers/chromedriver-win64/`)
 
 
-\## Setup \& Execution Instructions
+
+---
 
 
 
-1\. \*\*Clone the repository\*\*:
+\## Running the Tests
+
+
+
+You can run the login test using Maven and pass your \*\*Hudl credentials\*\* (email and password) as system properties.
+
+
+
+\### Example Command:
 
 
 
 ```bash
 
-git clone <repo-url>
+mvn clean test -DHUDL\_EMAIL="your\_email@example.com" -DHUDL\_PASSWORD=YourPassword123
 
 
 
-2\. \*\*Navigate to project root\*\*:
+Replace your\_email@example.com and YourPassword123 with your own Hudl credentials.
 
 
 
-cd hudl-automation
+\*\*Notes\*\*
 
 
 
-3\. \*\*Run test using maven\*\*:
+If you do not provide credentials, the test will use default dummy credentials and is expected to fail (for testing invalid login).
 
 
 
-mvn clean test
+The test will automatically verify successful login by checking for the presence of the user avatar after logging in.
 
 
 
-4\. \*\*Expected output\*\*:
+\*\*Project Structure\*\*
 
 
 
-Chrome opens and navigates to https://www.hudl.com/.
+hudl-login-automation/
 
+├── drivers/                   # Contains ChromeDriver executable
 
+├── src/
 
-Console prints the page title.
+│   └── test/
 
+│       └── java/
 
+│           └── com/hudl/tests/LoginTest.java
 
-Maven reports Tests run: 1, Failures: 0, Errors: 0
+├── pom.xml                    # Maven project file
+
+└── README.md
 
 
 
