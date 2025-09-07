@@ -12,7 +12,7 @@ public class LoginTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\amjed\\HUDL\\hudl-automation\\java\\drivers\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-win64/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
