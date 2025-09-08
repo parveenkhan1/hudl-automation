@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T22:50:32 BST" name="Hudl Login Suite" finished-at="2025-09-07T22:50:44 BST" duration-ms="12411">
+  <suite started-at="2025-09-08T01:31:22 BST" name="Hudl Login Suite" finished-at="2025-09-08T01:31:35 BST" duration-ms="13382">
     <groups>
     </groups>
-    <test started-at="2025-09-07T22:50:32 BST" name="Login Test" finished-at="2025-09-07T22:50:44 BST" duration-ms="12411">
+    <test started-at="2025-09-08T01:31:22 BST" name="Login Test" finished-at="2025-09-08T01:31:35 BST" duration-ms="13382">
       <class name="com.hudl.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T22:50:32 BST" name="setUp" finished-at="2025-09-07T22:50:36 BST" duration-ms="4189" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-08T01:31:22 BST" name="setUp" finished-at="2025-09-08T01:31:26 BST" duration-ms="4571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHudlLogin()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T22:50:36 BST" name="testHudlLogin" finished-at="2025-09-07T22:50:44 BST" duration-ms="7833" status="PASS">
+        <test-method signature="testHudlLogin()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-08T01:31:26 BST" name="testHudlLogin" finished-at="2025-09-08T01:31:34 BST" duration-ms="7546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHudlLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-07T22:50:44 BST" name="tearDown" finished-at="2025-09-07T22:50:44 BST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hudl.tests.LoginTest@130161f7]" started-at="2025-09-08T01:31:34 BST" name="tearDown" finished-at="2025-09-08T01:31:35 BST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
