@@ -1,2 +1,6 @@
+com\hudl\core\DriverFactory.class
+com\hudl\core\BasePage.class
+com\hudl\core\ReportManager.class
+com\hudl\core\BaseTest.class
 com\hudl\tests\LoginTest.class
 com\hudl\pages\LoginPage.class
